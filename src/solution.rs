@@ -1,1 +1,2 @@
 mod s1_two_sum;
+mod s424_longest_repeating_character_replacement;
