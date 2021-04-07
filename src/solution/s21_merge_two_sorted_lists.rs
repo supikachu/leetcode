@@ -19,9 +19,9 @@ impl Solution {
             let mut l = Some(Box::new(ListNode::new(0)));
             let mut tail = &mut l;
             loop {
-                match &mut l1.take() {
-                    list1 @ Some(_) => match &mut l2.take() {
-                        list2 @ Some(_) => {
+                match l1 {
+                    mut list1 @ Some(_) => match l2 {
+                        mut list2 @ Some(_) => {
                             if list1.as_ref().unwrap().val < list2.as_ref().unwrap().val {
                                 l1 = list1.as_mut().unwrap().next.take();
                                 tail.as_mut().unwrap().next = list1.take();
