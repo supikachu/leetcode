@@ -3,6 +3,7 @@ mod s13_roman_to_integer;
 mod s14_longest_common_profix;
 mod s1_two_sum;
 mod s206_reverse_linked_list;
+mod s20_valid_parentheses;
 mod s21_merge_two_sorted_lists;
 mod s2_add_two_numbers;
 mod s424_longest_repeating_character_replacement;
