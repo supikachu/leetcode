@@ -1,5 +1,6 @@
 mod s1143_longest_common_subsequence;
 mod s13_roman_to_integer;
+mod s14_longest_common_profix;
 mod s1_two_sum;
 mod s206_reverse_linked_list;
 mod s21_merge_two_sorted_lists;
