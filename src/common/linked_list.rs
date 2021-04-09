@@ -1,3 +1,5 @@
+use std::cmp::Ordering;
+
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
@@ -24,6 +26,18 @@ impl ListNode {
             self.val -= 1;
             node.val
         })
+    }
+}
+
+impl Ord for ListNode {
+    fn cmp(&self, other: &Self) -> Ordering {
+        self.val.cmp(&other.val)
+    }
+}
+
+impl PartialOrd for ListNode {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
     }
 }
 
