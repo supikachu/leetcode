@@ -1,4 +1,9 @@
-fn main() {
-    let mut v = vec![1, 2, 3];
-    v.iter_mut().for_each(|ele| *ele += 1);
-}
+fn main() {}
+
+// Some(Box::new(ListNode {
+//     val: 1,
+//     next: Some(Box::new(ListNode {
+//         val: 2,
+//         next: Some(Box::new(ListNode::new(3))),
+//     })),
+// }));

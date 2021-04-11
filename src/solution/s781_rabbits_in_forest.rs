@@ -3,8 +3,8 @@ struct Solution {}
 
 // [2,2,2,2]
 use std::collections::HashMap;
-#[allow(dead_code)]
 #[allow(unused_variables)]
+#[allow(dead_code)]
 impl Solution {
     pub fn num_rabbits(answers: Vec<i32>) -> i32 {
         let mut nums = 0;
