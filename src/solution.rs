@@ -7,6 +7,7 @@ mod s206_reverse_linked_list;
 mod s20_valid_parentheses;
 mod s21_merge_two_sorted_lists;
 mod s23_merge_k_sorted_lists;
+mod s24_swap_nodes_in_pairs;
 mod s2_add_two_numbers;
 mod s424_longest_repeating_character_replacement;
 mod s43_multiply_strings;
