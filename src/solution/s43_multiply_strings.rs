@@ -58,11 +58,18 @@ impl Solution {
             ans.pop();
         }
 
-        let mut strs = String::new();
-        ans.iter().rev().for_each(|&dig| {
-            strs.push(std::char::from_u32(dig + 48).unwrap());
-        });
-        strs
+        ans.iter()
+            .rev()
+            .map(|&num| std::char::from_u32(num + 48).unwrap())
+            .fold("".to_string(), |mut acc, x| {
+                acc.push(x);
+                acc
+            })
+        // let mut strs = String::new();
+        // ans.iter().rev().for_each(|&dig| {
+        //     strs.push(std::char::from_u32(dig + 48).unwrap());
+        // });
+        // strs
     }
 }
 
