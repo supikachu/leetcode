@@ -12,3 +12,4 @@ mod s2_add_two_numbers;
 mod s424_longest_repeating_character_replacement;
 mod s43_multiply_strings;
 mod s781_rabbits_in_forest;
+mod s83_remove_duplicates_from_sorted_list;
